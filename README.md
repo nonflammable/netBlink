@@ -34,6 +34,7 @@ First to indicade starting transmision it will turn off diode complitly for 2 se
 In transmition default state is on, and sum of fast blinks (0.3sec off) means one numer. After every number diode stay on 1.5 sec and start next number.  If you get long off blink(1sec off) that indicade that this number is 0.
 
 **Example**
+
 **.125** (fast 1 blink)(1 second on)(fast 2 blink)(1 second on)(fast 5 blink)
 
 **.102** (fast 1 blink)(1 second on)(1 second off)(1 second on)(fast 2 blink)
