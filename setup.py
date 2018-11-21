@@ -19,7 +19,7 @@ print(r"""
               ___ ___  __                   
 	|\ | |__   |  |__) |    | |\ | |__/ 
 	| \| |___  |  |__) |___ | | \| |  \      
-                    
+       https://github.com/Laczekdev/netBlink
 """)
 print("	+ Preparing program directory")
 call("sudo mkdir -p /bin/startup ",shell=True)
