@@ -43,8 +43,8 @@ for o in range(0,10):
 		ip=ip[ip.find(".")+1:]
 		ip=ip[ip.find(".")+1:]
 
-		ip=ip[ip.find(".")+1:] 
-		#ip=ip.replace(".","") 
+		ip=ip[ip.find(".")+1:] #COMMENT THAT LINE TO LEAVE 3. OCTET
+		ip=ip.replace(".","") 
 	except:
 		ip="404"
 		pass
