@@ -35,6 +35,10 @@ In transmition default state is on, and sum of fast blinks (0.3sec off) means on
 
 I know that it's sound difficult but most persons (almost 4 of 5) decode it at first try.
 
+***If raspberry don't have an Ip address it will blink "404".***
+
+After finished transmision diode returns to default mode (disk usage indication).
+
 ## Example 
 
 **.125** (fast 1 blink)(1 second on)(fast 2 blink)(1 second on)(fast 5 blink)
@@ -45,9 +49,7 @@ I know that it's sound difficult but most persons (almost 4 of 5) decode it at f
 
 **.1** (fast 1 blink)(1 second on)
 
-If raspberry don't have an Ip address it will blink "404".
 
-After finished transmision diode returns to default mode (disk usage indication).
 
 **~! Remember that "0" is 1 second off led state!**
 
