@@ -1,4 +1,4 @@
-## netBlink ulity
+# netBlink ulity
 Simple tool to get Raspberry Pi IP address without network scaner, just by blinking it by onboard ACK_LED (mmc led).
 
 Its easy to setup by just running one python executable. 
@@ -16,21 +16,21 @@ Note that only that part of address is transmited by default:
 
 
 
-####Instalation
+##Instalation
 
 `$  git clone https://github.com/Laczekdev/netBlink.git`
 
 `$ cd netBlink`
 
 `$ sudo python3 setup.py`
-####How to decode
+##How to decode
 > I tried to make its easy human readable.
 
 First to indicade starting transmision it will turn off diode complitly for 2 seconds, then light it up for same time. 
 
 In transmition default state is on, and sum of fast blinks (0.3sec off) means one numer. After every number diode stay on 1.5 sec and start next number.  If you get long off blink(1sec off) that indicade that this number is 0.
 
-####Example:
+##Example:
 **.125** (fast 1 blink)(1 second on)(fast 2 blink)(1 second on)(fast 5 blink)
 
 **.102** (fast 1 blink)(1 second on)(1 second off)(1 second on)(fast 2 blink)
@@ -42,7 +42,7 @@ In transmition default state is on, and sum of fast blinks (0.3sec off) means on
 **~! Remember that "0" is 1 second off state !**
 
 
-###Checked Compability
+##Checked Compability
 - Raspberry Pi 3 B+
 - Raspberry Pi 3 B
 - Raspberry Pi Zero
