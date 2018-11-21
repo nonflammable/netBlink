@@ -1,12 +1,12 @@
 # netBlink ulity
 Simple tool to get Raspberry Pi IP address without network scaner, just by blinking it by onboard ACK_LED (mmc led).
 
-Its easy to setup by just running one python executable. 
+It's easy to setup by just running one python executable. 
 
-**Service will start about a minute after powering on and run every minute in first ten minutes of uptime.** Ulity will transmit only last octet of address i just assume that you know anything else (its posible to change that by commenting marked line in setup.py).
+**Service will start about a minute after powering on and run every minute in first ten minutes of uptime.** Ulity will send only last octet of address i just assume that you know anything else (its possible to change that by commenting marked line in setup.py).
 
 
-Note that only that part of address is transmited by default:
+Note that only that part of address is transmitted by default:
 
 |  192 |  168 |  88 |103  |
 | ------------ | ------------ | ------------ | ------------ |
@@ -29,9 +29,9 @@ Note that only that part of address is transmited by default:
 
 > I said "I tried"
 
-First to indicade starting transmision it will turn off diode complitly for 2 seconds, then light it up for same time. 
+First to indicate starting transmission it will turn off diode complitly for 2 seconds, then light it up for same time. 
 
-In transmition default state is on, and sum of fast blinks (0.3sec off) means one numer. After every number diode stay on 1.5 sec and start next number.  If you get long off blink(1sec off) that indicade that this number is 0.
+In transmition default state is on, and sum of fast blinks (0.3sec off) means one number. After every number diode stay on 1.5 sec and start next number.  If you get long off blink(1 sec off) that indicate that this number is 0.
 
 ## Example 
 
@@ -43,7 +43,7 @@ In transmition default state is on, and sum of fast blinks (0.3sec off) means on
 
 **.1** (fast 1 blink)(1 second on)
 
-**~! Remember that "0" is 1 second off state !**
+**~! Remember that "0" is 1 second off led state!**
 
 
 #### Checked Compability
