@@ -19,7 +19,9 @@ Note that only that part of address is transmited by default:
 **Instalation**
 
 `$  git clone https://github.com/Laczekdev/netBlink.git`
+
 `$ cd netBlink`
+
 `$ sudo python3 setup.py`
 
 **How to decode**
