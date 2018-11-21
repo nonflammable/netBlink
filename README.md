@@ -46,7 +46,7 @@ In transmition default state is on, and sum of fast blinks (0.3sec off) means on
 **~! Remember that "0" is 1 second off state !**
 
 
-**Checked Compability** 
+#### Checked Compability
 - Raspberry Pi 3 B+
 - Raspberry Pi 3 B
 - Raspberry Pi Zero
