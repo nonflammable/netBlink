@@ -31,7 +31,9 @@ Note that only that part of address is transmitted by default:
 
 First to indicate starting transmission it will turn off diode complitly for 2 seconds, then light it up for same time. 
 
-In transmition default state is on, and sum of fast blinks (0.3sec off) means one number. After every number diode stay on 1.5 sec and start next number.  If you get long off blink(1 sec off) that indicate that this number is 0.
+In transmition default state is on, and sum of fast blinks (0.3sec off) means one number. After every number diode stay on (1.5 sec on) and start next number.  If you get long off blink (1 sec off) that indicate that this number is 0.
+
+I know that it's sound difficult but most persons (almost 4 of 5) decode it at first try.
 
 ## Example 
 
