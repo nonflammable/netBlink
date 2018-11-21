@@ -51,5 +51,6 @@ In transmition default state is on, and sum of fast blinks (0.3sec off) means on
 - Raspberry Pi 3 B
 - Raspberry Pi Zero
 - Raspberry Pi Zero W
+
 **Should work on every raspberry Pi**
 
