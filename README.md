@@ -44,7 +44,8 @@ I know that it's sound difficult but most persons (almost 4 of 5) decode it at f
 **.100** (fast 1 blink)(1 second on)(1 second off)(1 second on)(1 second off)
 
 **.1** (fast 1 blink)(1 second on)
-
+If raspberry don't have an Ip address it will blink "404".
+After finished transmision diode returns to default mode (disk usage indication).
 **~! Remember that "0" is 1 second off led state!**
 
 
