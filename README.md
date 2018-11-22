@@ -27,10 +27,11 @@ Note that only that part of address is transmitted by default:
 ## How to decode 
 
 ***TL;DR***
-
-Number of fast blink in row ***= number***
+Count of fast blink in row ***= number***
 
 One long blink ***= zero***
+
+***end of TL;DR***
 
 
 > I tried to make its easy human readable.
