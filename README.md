@@ -27,6 +27,7 @@ Note that only that part of address is transmitted by default:
 ## How to decode 
 
 ***TL;DR***
+
 Count of fast blink in row ***= number***
 
 One long blink ***= zero***
