@@ -26,10 +26,12 @@ Note that only that part of address is transmitted by default:
 
 ## How to decode 
 
-***TL;DR
-Number of fast blink in row = one number
-One long blink = zero
-END OF TL:DR***
+***TL;DR***
+
+Number of fast blink in row ***= number***
+
+One long blink ***= zero***
+
 
 > I tried to make its easy human readable.
 
