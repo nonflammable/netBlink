@@ -25,6 +25,12 @@ Note that only that part of address is transmitted by default:
 `$ sudo python3 setup.py`
 
 ## How to decode 
+
+***TL;DR
+Number of fast blink in row = one number
+One long blink = zero
+END OF TL:DR***
+
 > I tried to make its easy human readable.
 
 > I said "I tried"
